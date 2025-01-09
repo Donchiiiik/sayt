@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Varela+Round&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", serif;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(./R\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.548);
+    padding: 10px 20px;
+    position: fixed;
+    width: 98%;
+    z-index: 1000;
+    height: 70px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00ff00;
+  }
+  .hero .content h2:hover{
+    color: #00ff00;
+    transition: 1s ;
+  }
+  
+  .hero {
+    background: url('eiffel-tower.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero .content h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .hero .content h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  .hero .content p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #ffffff;
+  }
+  
+  .hero .btn {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ffffffa1;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .hero .butn {
+    background-color:#00ff00;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .hero .butn:hover {
+    background-color: #00ff008c;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .content span{
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  .content .word1{
+    color: #00ff00;
+
+  }
+  .content .word2{
+    color: #ffffff;
+  }
+.nomi{
+    text-shadow: 3px 3px black;
+    margin-top: 25px;
+}
